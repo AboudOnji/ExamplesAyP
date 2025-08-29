@@ -1,3 +1,8 @@
+# Example2.py
+# Calcula el factorial de un número
+# Asegura que el número no sea negativo
+# Si el número es 0, el factorial es 1
+
 N = input("ingresa un número que no sea negativo: ")
 N = int(N)
 factorial = 1
