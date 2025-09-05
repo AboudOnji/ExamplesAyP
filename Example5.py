@@ -4,7 +4,6 @@
 # Si la contraseña es inválida, pide al usuario que intente de nuevo
 # Si la contraseña es válida, muestra un mensaje de éxito y termina
 
-
 contrasena_valida = False
 while not contrasena_valida:
     contrasena = input("Cree una contraseña (mínimo 8 caracteres): ")
