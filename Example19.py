@@ -13,4 +13,3 @@ while True:
         materias.append(materia)
 print(f"Materias ingresadas: {materias}")
 print(f"Notas ingresadas: {notas}")
-    
