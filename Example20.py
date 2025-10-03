@@ -1,7 +1,8 @@
 # Ejercicio 20: Juego de selección con match-case
 # Escribe un programa que permita a 10 jugadores elegir entre tres juegos diferentes (A, B, C).
-# Utiliza una estructura match-case para saludar a cada jugador según su elección
-# y lleva un conteo de cuántos jugadores eligieron cada juego.
+# Utiliza una estructura match-case para solicitar que el usaurio elija un juego
+# El programa debe saludar al jugador por su nombre y confirmar su elección,
+# Al finalizar muestra un conteo de cuántos jugadores eligieron cada juego.
 ContA = ContB = ContC = 0
 for i in range(1,11):
     name = input("Ingrese su primer nombre: ")
