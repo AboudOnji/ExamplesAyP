@@ -11,7 +11,7 @@ for fila in calificaciones:
 for fila in calificaciones:
     n = len(fila)
     for i in range(n):
-        for j in range(0, n-i-1): 
+        for j in range(n-1):
             if fila[j] > fila[j+1]:
                 fila[j], fila[j+1] = fila[j+1], fila[j]
 
